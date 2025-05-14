@@ -1,3 +1,5 @@
+package org.pendulumNeat;
+
 public class Pendulum {
 
   public double pos;

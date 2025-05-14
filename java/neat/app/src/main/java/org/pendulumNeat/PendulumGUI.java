@@ -1,3 +1,5 @@
+package org.pendulumNeat;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -31,7 +33,7 @@ public class PendulumGUI extends JPanel {
 
     SwingUtilities.invokeLater(() -> requestFocusInWindow());
 
-    timer = new Timer(16, _ -> {
+    timer = new Timer(16, a -> {
       loopUpdate();
       repaint();
     });
